@@ -4,13 +4,22 @@ import {ThemeSwitcher as Themes} from "./components/themeSwitcher"
 
 import "./app.css"
 
+import logo from "./assets/images/logo.svg"
+import arrow from "./assets/images/icon-arrow-down.svg"
+import searchBar from "./assets/images/icon-search.svg"
+import play from "./assets/images/icon-play.svg"
+import playHover from "./assets/images/icon-play-hovered.svg"
+import window from "./assets/images/icon-new-window.svg"
+
+
+
 const assets = {
-  logo: "./src/assets/images/logo.svg",
-  arrow: "./src/assets/images/icon-arrow-down.svg",
-  searchBar: "./src/assets/images/icon-search.svg",
-  play: "./src/assets/images/icon-play.svg",
-  playHover: "./src/assets/images/icon-play-hovered.svg",
-  window: "./src/assets/images/icon-new-window.svg",
+  logo: logo,
+  arrow: arrow,
+  searchBar: searchBar,
+  play: play,
+  playHover: playHover,
+  window: window,
 }
 
 function Header(){
